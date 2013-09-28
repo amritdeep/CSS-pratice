@@ -33,12 +33,13 @@ p {
  }
 
  .wrapper{
- 	background-color: red;
+ 	background-color: gray;
+ 	border: 10px solid #333;
 
- 	border-width: 5px;
- 	border-style: solid;
- 	border-color: yellow;
-
+ 	/*border-width: 10px;
+ 	border-style: dashed;
+ 	border-color: #333;
+*/
  	margin: 50px auto;
 
  	width: 70%;
