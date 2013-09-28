@@ -2,7 +2,7 @@ body{
 	/*background-image: url('../img/logo.png');
 	background-repeat: no-repeat;*/
 
-	background: #524763 url('../img/logo.jpg') repeat-x;
+	background: #524763 url('../img/logo.jpg') repeat;
 }
 
 h1 {
@@ -22,8 +22,17 @@ p {
  	font-size: 1.4em;
  }
 
+ .nav {
+ 	list-style: none;
+ 	padding: 0;
+ }
+
+ .nav li {
+ 	display: inline;
+ }
+
  .wrapper{
- 	background-color: white;
+ 	background-color: red;
  }
 
  .wrapper a {
@@ -37,15 +46,6 @@ p {
 
  .wrapper a:active {
  	background: blue;
- }
-
-
- .first{
- 	font: italic small-caps 900 1.4em Helvetica, arial, sans-serif;
- 	/*text-indent: 100px;
- 	font-style: italic;
- 	font-variant: small-caps;
- 	font-weight: 900;*/
  }
 
 
