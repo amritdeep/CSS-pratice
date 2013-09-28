@@ -3,6 +3,7 @@ body{
 	background-repeat: no-repeat;*/
 
 	background: #524763 url('../img/logo.jpg') repeat;
+	margin: 0;
 }
 
 h1 {
@@ -33,6 +34,15 @@ p {
 
  .wrapper{
  	background-color: red;
+
+ 	border-width: 5px;
+ 	border-style: solid;
+ 	border-color: yellow;
+
+ 	margin: 50px auto;
+
+ 	width: 70%;
+ 	height: 400px;
  }
 
  .wrapper a {
