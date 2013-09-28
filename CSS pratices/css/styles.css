@@ -1,0 +1,51 @@
+body{ 
+	/*background-image: url('../img/logo.png');
+	background-repeat: no-repeat;*/
+
+	background: #524763 url('../img/logo.jpg') repeat-x;
+}
+
+h1 {
+	/*text-align: right;
+	text-decoration: line-through;
+	color: yellow;	*/
+	text-transform: uppercase;
+	font-size: 23px;
+}
+
+p {
+ 	/*font-family: Helvetica, arial, sans-serif;
+ 	text-decoration: underline;
+ 	color: white;
+ 	text-transform: capitalize;
+ 	text-align: center;*/
+ 	font-size: 1.4em;
+ }
+
+ .wrapper{
+ 	background-color: white;
+ }
+
+ .wrapper a {
+ 	text-decoration: none;
+ }
+
+ .wrapper a:hover {
+ 	background: red;
+ 	text-decoration: underline;
+ }
+
+ .wrapper a:active {
+ 	background: blue;
+ }
+
+
+ .first{
+ 	font: italic small-caps 900 1.4em Helvetica, arial, sans-serif;
+ 	/*text-indent: 100px;
+ 	font-style: italic;
+ 	font-variant: small-caps;
+ 	font-weight: 900;*/
+ }
+
+
