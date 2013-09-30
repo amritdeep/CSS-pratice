@@ -23,6 +23,25 @@ p {
  	font-size: 1.4em;
  }
 
+ .warning {
+ 	color: white;
+ 	background: red;
+ }
+
+ .left-col{
+ 	float: left;
+ 	width: 20%;
+ 	margin: 40px 10% 40px 5%;
+ 	background: #444;
+ }
+
+ .main-col{
+ 	float: right;
+ 	width: 65%;
+ 	margin: 40px 5% 40px 5%SSS;
+ 	background: #666;
+ }
+
  .nav {
  	list-style: none;
  	padding: 0;
@@ -43,7 +62,9 @@ p {
  	margin: 50px auto;
 
  	width: 70%;
- 	height: 400px;
+ 	max-width: 800px;
+ 	min-width: 400px;
+ 	min-height: 200px;
  	padding: 40px 20px;
  }
 
@@ -61,3 +82,37 @@ p {
  }
 
 
+
+
+
+
+ /*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
